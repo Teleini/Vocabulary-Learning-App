@@ -6,7 +6,6 @@ import { GameEffects, useGameEffects } from './components/GameEffects';
 import { useGameState } from './hooks/useGameState';
 import { QuestionGenerator } from './lib/questionGenerator';
 import { db } from './lib/database';
-import { Word } from './types';
 
 type GameScreen = 'home' | 'playing' | 'result';
 
@@ -45,7 +44,7 @@ function App() {
     }
   };
 
-  const handleAnswer = async (answer: string, isCorrect: boolean) => {
+  const handleAnswer = async (_answer: string, isCorrect: boolean) => {
     // Play effects
     if (isCorrect) {
       playEffect('correct');

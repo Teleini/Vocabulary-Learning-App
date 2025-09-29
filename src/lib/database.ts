@@ -1,4 +1,4 @@
-import { Word, Progress, Meta } from '@/types';
+import { Word, Progress } from '@/types';
 
 const DB_NAME = 'FunWordsDB';
 const DB_VERSION = 1;
@@ -25,11 +25,11 @@ export class DatabaseService {
         }
 
         if (!db.objectStoreNames.contains('progress')) {
-          const progressStore = db.createObjectStore('progress', { keyPath: 'wordId' });
+          db.createObjectStore('progress', { keyPath: 'wordId' });
         }
 
         if (!db.objectStoreNames.contains('meta')) {
-          const metaStore = db.createObjectStore('meta', { keyPath: 'key' });
+          db.createObjectStore('meta', { keyPath: 'key' });
         }
       };
     });
