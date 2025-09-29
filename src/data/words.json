@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "headword": "abandon",
+    "meaning": "放弃；抛弃",
+    "example": "He had to abandon his car in the snow.",
+    "audioKey": "abandon"
+  },
+  {
+    "id": 2,
+    "headword": "ability",
+    "meaning": "能力；才能",
+    "example": "She has the ability to solve complex problems.",
+    "audioKey": "ability"
+  },
+  {
+    "id": 3,
+    "headword": "about",
+    "meaning": "关于；大约",
+    "example": "Tell me about your trip.",
+    "audioKey": "about"
+  },
+  {
+    "id": 4,
+    "headword": "above",
+    "meaning": "在...上面；超过",
+    "example": "The plane flew above the clouds.",
+    "audioKey": "above"
+  },
+  {
+    "id": 5,
+    "headword": "abroad",
+    "meaning": "在国外；到国外",
+    "example": "She studied abroad for a year.",
+    "audioKey": "abroad"
+  },
+  {
+    "id": 6,
+    "headword": "absent",
+    "meaning": "缺席的；不在的",
+    "example": "He was absent from school yesterday.",
+    "audioKey": "absent"
+  },
+  {
+    "id": 7,
+    "headword": "accept",
+    "meaning": "接受；同意",
+    "example": "I accept your invitation.",
+    "audioKey": "accept"
+  },
+  {
+    "id": 8,
+    "headword": "accident",
+    "meaning": "事故；意外",
+    "example": "There was a car accident on the highway.",
+    "audioKey": "accident"
+  },
+  {
+    "id": 9,
+    "headword": "achieve",
+    "meaning": "实现；达到",
+    "example": "She worked hard to achieve her goals.",
+    "audioKey": "achieve"
+  },
+  {
+    "id": 10,
+    "headword": "action",
+    "meaning": "行动；动作",
+    "example": "We need to take action immediately.",
+    "audioKey": "action"
+  },
+  {
+    "id": 11,
+    "headword": "activity",
+    "meaning": "活动；行为",
+    "example": "Swimming is a healthy activity.",
+    "audioKey": "activity"
+  },
+  {
+    "id": 12,
+    "headword": "address",
+    "meaning": "地址；演讲",
+    "example": "What's your home address?",
+    "audioKey": "address"
+  },
+  {
+    "id": 13,
+    "headword": "advantage",
+    "meaning": "优势；好处",
+    "example": "There are many advantages to learning English.",
+    "audioKey": "advantage"
+  },
+  {
+    "id": 14,
+    "headword": "adventure",
+    "meaning": "冒险；奇遇",
+    "example": "Their trip was full of adventure.",
+    "audioKey": "adventure"
+  },
+  {
+    "id": 15,
+    "headword": "advice",
+    "meaning": "建议；忠告",
+    "example": "Can you give me some advice?",
+    "audioKey": "advice"
+  },
+  {
+    "id": 16,
+    "headword": "afford",
+    "meaning": "负担得起；提供",
+    "example": "I can't afford to buy a new car.",
+    "audioKey": "afford"
+  },
+  {
+    "id": 17,
+    "headword": "afraid",
+    "meaning": "害怕的；担心的",
+    "example": "She's afraid of spiders.",
+    "audioKey": "afraid"
+  },
+  {
+    "id": 18,
+    "headword": "after",
+    "meaning": "在...之后",
+    "example": "We'll meet after lunch.",
+    "audioKey": "after"
+  },
+  {
+    "id": 19,
+    "headword": "afternoon",
+    "meaning": "下午；午后",
+    "example": "Good afternoon, everyone!",
+    "audioKey": "afternoon"
+  },
+  {
+    "id": 20,
+    "headword": "again",
+    "meaning": "再次；又",
+    "example": "Please say that again.",
+    "audioKey": "again"
+  },
+  {
+    "id": 21,
+    "headword": "against",
+    "meaning": "反对；靠着",
+    "example": "He leaned against the wall.",
+    "audioKey": "against"
+  },
+  {
+    "id": 22,
+    "headword": "agree",
+    "meaning": "同意；赞成",
+    "example": "I agree with your opinion.",
+    "audioKey": "agree"
+  },
+  {
+    "id": 23,
+    "headword": "airport",
+    "meaning": "机场",
+    "example": "The plane landed at the airport.",
+    "audioKey": "airport"
+  },
+  {
+    "id": 24,
+    "headword": "allow",
+    "meaning": "允许；准许",
+    "example": "Smoking is not allowed here.",
+    "audioKey": "allow"
+  },
+  {
+    "id": 25,
+    "headword": "almost",
+    "meaning": "几乎；差不多",
+    "example": "It's almost time to go.",
+    "audioKey": "almost"
+  },
+  {
+    "id": 26,
+    "headword": "alone",
+    "meaning": "单独的；独自的",
+    "example": "She likes to walk alone.",
+    "audioKey": "alone"
+  },
+  {
+    "id": 27,
+    "headword": "along",
+    "meaning": "沿着；一起",
+    "example": "Walk along this street.",
+    "audioKey": "along"
+  },
+  {
+    "id": 28,
+    "headword": "already",
+    "meaning": "已经",
+    "example": "I've already finished my homework.",
+    "audioKey": "already"
+  },
+  {
+    "id": 29,
+    "headword": "also",
+    "meaning": "也；同样",
+    "example": "She's also coming to the party.",
+    "audioKey": "also"
+  },
+  {
+    "id": 30,
+    "headword": "although",
+    "meaning": "虽然；尽管",
+    "example": "Although it's raining, we'll go out.",
+    "audioKey": "although"
+  },
+  {
+    "id": 31,
+    "headword": "always",
+    "meaning": "总是；永远",
+    "example": "She always helps others.",
+    "audioKey": "always"
+  },
+  {
+    "id": 32,
+    "headword": "amazing",
+    "meaning": "令人惊异的",
+    "example": "The view from the mountain was amazing.",
+    "audioKey": "amazing"
+  },
+  {
+    "id": 33,
+    "headword": "among",
+    "meaning": "在...中间；在...之中",
+    "example": "She was sitting among her friends.",
+    "audioKey": "among"
+  },
+  {
+    "id": 34,
+    "headword": "ancient",
+    "meaning": "古代的；古老的",
+    "example": "This is an ancient building.",
+    "audioKey": "ancient"
+  },
+  {
+    "id": 35,
+    "headword": "angry",
+    "meaning": "生气的；愤怒的",
+    "example": "He was angry about the delay.",
+    "audioKey": "angry"
+  },
+  {
+    "id": 36,
+    "headword": "animal",
+    "meaning": "动物",
+    "example": "Dogs are loyal animals.",
+    "audioKey": "animal"
+  },
+  {
+    "id": 37,
+    "headword": "another",
+    "meaning": "另一个；再一个",
+    "example": "Can I have another piece of cake?",
+    "audioKey": "another"
+  },
+  {
+    "id": 38,
+    "headword": "answer",
+    "meaning": "回答；答案",
+    "example": "Please answer my question.",
+    "audioKey": "answer"
+  },
+  {
+    "id": 39,
+    "headword": "anxious",
+    "meaning": "焦虑的；担心的",
+    "example": "She felt anxious before the exam.",
+    "audioKey": "anxious"
+  },
+  {
+    "id": 40,
+    "headword": "appear",
+    "meaning": "出现；似乎",
+    "example": "The sun appeared from behind the clouds.",
+    "audioKey": "appear"
+  },
+  {
+    "id": 41,
+    "headword": "approach",
+    "meaning": "接近；方法",
+    "example": "Winter is approaching.",
+    "audioKey": "approach"
+  },
+  {
+    "id": 42,
+    "headword": "argue",
+    "meaning": "争论；争辩",
+    "example": "They often argue about politics.",
+    "audioKey": "argue"
+  },
+  {
+    "id": 43,
+    "headword": "arrive",
+    "meaning": "到达；抵达",
+    "example": "What time does the train arrive?",
+    "audioKey": "arrive"
+  },
+  {
+    "id": 44,
+    "headword": "article",
+    "meaning": "文章；物品",
+    "example": "I read an interesting article today.",
+    "audioKey": "article"
+  },
+  {
+    "id": 45,
+    "headword": "artist",
+    "meaning": "艺术家；画家",
+    "example": "She's a talented artist.",
+    "audioKey": "artist"
+  },
+  {
+    "id": 46,
+    "headword": "attack",
+    "meaning": "攻击；袭击",
+    "example": "The enemy launched an attack.",
+    "audioKey": "attack"
+  },
+  {
+    "id": 47,
+    "headword": "attempt",
+    "meaning": "尝试；企图",
+    "example": "This is my first attempt at cooking.",
+    "audioKey": "attempt"
+  },
+  {
+    "id": 48,
+    "headword": "attend",
+    "meaning": "出席；参加",
+    "example": "Will you attend the meeting?",
+    "audioKey": "attend"
+  },
+  {
+    "id": 49,
+    "headword": "attention",
+    "meaning": "注意；关注",
+    "example": "Please pay attention to the teacher.",
+    "audioKey": "attention"
+  },
+  {
+    "id": 50,
+    "headword": "attitude",
+    "meaning": "态度；看法",
+    "example": "He has a positive attitude towards life.",
+    "audioKey": "attitude"
+  },
+  {
+    "id": 51,
+    "headword": "attract",
+    "meaning": "吸引；引起",
+    "example": "The colorful flowers attract bees.",
+    "audioKey": "attract"
+  },
+  {
+    "id": 52,
+    "headword": "available",
+    "meaning": "可得到的；有空的",
+    "example": "Is the manager available now?",
+    "audioKey": "available"
+  },
+  {
+    "id": 53,
+    "headword": "avoid",
+    "meaning": "避免；回避",
+    "example": "Try to avoid making mistakes.",
+    "audioKey": "avoid"
+  },
+  {
+    "id": 54,
+    "headword": "aware",
+    "meaning": "意识到的；知道的",
+    "example": "Are you aware of the problem?",
+    "audioKey": "aware"
+  },
+  {
+    "id": 55,
+    "headword": "background",
+    "meaning": "背景；出身",
+    "example": "Tell me about your educational background.",
+    "audioKey": "background"
+  },
+  {
+    "id": 56,
+    "headword": "balance",
+    "meaning": "平衡；余额",
+    "example": "Try to keep your balance.",
+    "audioKey": "balance"
+  },
+  {
+    "id": 57,
+    "headword": "basic",
+    "meaning": "基本的；基础的",
+    "example": "These are the basic rules.",
+    "audioKey": "basic"
+  },
+  {
+    "id": 58,
+    "headword": "battle",
+    "meaning": "战斗；斗争",
+    "example": "They won the battle against disease.",
+    "audioKey": "battle"
+  },
+  {
+    "id": 59,
+    "headword": "beautiful",
+    "meaning": "美丽的；漂亮的",
+    "example": "What a beautiful sunset!",
+    "audioKey": "beautiful"
+  },
+  {
+    "id": 60,
+    "headword": "because",
+    "meaning": "因为；由于",
+    "example": "I'm happy because it's sunny.",
+    "audioKey": "because"
+  },
+  {
+    "id": 61,
+    "headword": "become",
+    "meaning": "成为；变成",
+    "example": "She wants to become a doctor.",
+    "audioKey": "become"
+  },
+  {
+    "id": 62,
+    "headword": "before",
+    "meaning": "在...之前",
+    "example": "Wash your hands before eating.",
+    "audioKey": "before"
+  },
+  {
+    "id": 63,
+    "headword": "begin",
+    "meaning": "开始；着手",
+    "example": "Let's begin our lesson.",
+    "audioKey": "begin"
+  },
+  {
+    "id": 64,
+    "headword": "behavior",
+    "meaning": "行为；举止",
+    "example": "His behavior was very polite.",
+    "audioKey": "behavior"
+  },
+  {
+    "id": 65,
+    "headword": "behind",
+    "meaning": "在...后面；落后",
+    "example": "The cat is hiding behind the tree.",
+    "audioKey": "behind"
+  },
+  {
+    "id": 66,
+    "headword": "believe",
+    "meaning": "相信；认为",
+    "example": "I believe you are right.",
+    "audioKey": "believe"
+  },
+  {
+    "id": 67,
+    "headword": "belong",
+    "meaning": "属于；归属",
+    "example": "This book belongs to me.",
+    "audioKey": "belong"
+  },
+  {
+    "id": 68,
+    "headword": "benefit",
+    "meaning": "益处；好处",
+    "example": "Exercise has many health benefits.",
+    "audioKey": "benefit"
+  },
+  {
+    "id": 69,
+    "headword": "beside",
+    "meaning": "在...旁边",
+    "example": "Sit beside me.",
+    "audioKey": "beside"
+  },
+  {
+    "id": 70,
+    "headword": "between",
+    "meaning": "在...之间",
+    "example": "The school is between the bank and the hospital.",
+    "audioKey": "between"
+  },
+  {
+    "id": 71,
+    "headword": "bicycle",
+    "meaning": "自行车",
+    "example": "I ride my bicycle to school.",
+    "audioKey": "bicycle"
+  },
+  {
+    "id": 72,
+    "headword": "birthday",
+    "meaning": "生日",
+    "example": "Happy birthday to you!",
+    "audioKey": "birthday"
+  },
+  {
+    "id": 73,
+    "headword": "borrow",
+    "meaning": "借；借用",
+    "example": "Can I borrow your pen?",
+    "audioKey": "borrow"
+  },
+  {
+    "id": 74,
+    "headword": "bottom",
+    "meaning": "底部；底端",
+    "example": "The treasure is at the bottom of the sea.",
+    "audioKey": "bottom"
+  },
+  {
+    "id": 75,
+    "headword": "brave",
+    "meaning": "勇敢的；无畏的",
+    "example": "The firefighters are very brave.",
+    "audioKey": "brave"
+  },
+  {
+    "id": 76,
+    "headword": "break",
+    "meaning": "打破；休息",
+    "example": "Let's take a break.",
+    "audioKey": "break"
+  },
+  {
+    "id": 77,
+    "headword": "bridge",
+    "meaning": "桥；桥梁",
+    "example": "We walked across the bridge.",
+    "audioKey": "bridge"
+  },
+  {
+    "id": 78,
+    "headword": "bright",
+    "meaning": "明亮的；聪明的",
+    "example": "The room is bright and clean.",
+    "audioKey": "bright"
+  },
+  {
+    "id": 79,
+    "headword": "bring",
+    "meaning": "带来；拿来",
+    "example": "Please bring your books tomorrow.",
+    "audioKey": "bring"
+  },
+  {
+    "id": 80,
+    "headword": "brother",
+    "meaning": "兄弟；哥哥/弟弟",
+    "example": "My brother is older than me.",
+    "audioKey": "brother"
+  },
+  {
+    "id": 81,
+    "headword": "build",
+    "meaning": "建造；建立",
+    "example": "They plan to build a new school.",
+    "audioKey": "build"
+  },
+  {
+    "id": 82,
+    "headword": "business",
+    "meaning": "商业；生意",
+    "example": "He owns a small business.",
+    "audioKey": "business"
+  },
+  {
+    "id": 83,
+    "headword": "button",
+    "meaning": "按钮；纽扣",
+    "example": "Press the red button to start.",
+    "audioKey": "button"
+  },
+  {
+    "id": 84,
+    "headword": "camera",
+    "meaning": "照相机；摄像机",
+    "example": "She took a photo with her camera.",
+    "audioKey": "camera"
+  },
+  {
+    "id": 85,
+    "headword": "cancel",
+    "meaning": "取消；撤销",
+    "example": "We had to cancel the trip due to rain.",
+    "audioKey": "cancel"
+  },
+  {
+    "id": 86,
+    "headword": "capital",
+    "meaning": "首都；资本",
+    "example": "Beijing is the capital of China.",
+    "audioKey": "capital"
+  },
+  {
+    "id": 87,
+    "headword": "careful",
+    "meaning": "小心的；仔细的",
+    "example": "Be careful when crossing the street.",
+    "audioKey": "careful"
+  },
+  {
+    "id": 88,
+    "headword": "carry",
+    "meaning": "携带；运送",
+    "example": "Can you help me carry these bags?",
+    "audioKey": "carry"
+  },
+  {
+    "id": 89,
+    "headword": "catch",
+    "meaning": "抓住；赶上",
+    "example": "Hurry up, or you'll miss the bus!",
+    "audioKey": "catch"
+  },
+  {
+    "id": 90,
+    "headword": "cause",
+    "meaning": "原因；引起",
+    "example": "What was the cause of the accident?",
+    "audioKey": "cause"
+  },
+  {
+    "id": 91,
+    "headword": "celebrate",
+    "meaning": "庆祝；庆贺",
+    "example": "Let's celebrate your success!",
+    "audioKey": "celebrate"
+  },
+  {
+    "id": 92,
+    "headword": "center",
+    "meaning": "中心；中央",
+    "example": "The statue is in the center of the square.",
+    "audioKey": "center"
+  },
+  {
+    "id": 93,
+    "headword": "century",
+    "meaning": "世纪；百年",
+    "example": "We live in the 21st century.",
+    "audioKey": "century"
+  },
+  {
+    "id": 94,
+    "headword": "certain",
+    "meaning": "确定的；某些",
+    "example": "I'm certain that he will come.",
+    "audioKey": "certain"
+  },
+  {
+    "id": 95,
+    "headword": "challenge",
+    "meaning": "挑战；质疑",
+    "example": "Learning English is a challenge for me.",
+    "audioKey": "challenge"
+  },
+  {
+    "id": 96,
+    "headword": "chance",
+    "meaning": "机会；可能性",
+    "example": "This is your chance to succeed.",
+    "audioKey": "chance"
+  },
+  {
+    "id": 97,
+    "headword": "change",
+    "meaning": "改变；变化",
+    "example": "The weather can change quickly.",
+    "audioKey": "change"
+  },
+  {
+    "id": 98,
+    "headword": "character",
+    "meaning": "性格；人物",
+    "example": "She has a strong character.",
+    "audioKey": "character"
+  },
+  {
+    "id": 99,
+    "headword": "cheap",
+    "meaning": "便宜的；廉价的",
+    "example": "This shirt is very cheap.",
+    "audioKey": "cheap"
+  },
+  {
+    "id": 100,
+    "headword": "choose",
+    "meaning": "选择；挑选",
+    "example": "You can choose any color you like.",
+    "audioKey": "choose"
+  }
+]
