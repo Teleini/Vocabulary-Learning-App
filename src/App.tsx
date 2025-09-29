@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import HomePage from './components/HomePage';
 import GameQuestion from './components/GameQuestion';
 import GameResultDialog from './components/GameResultDialog';
@@ -6,6 +6,7 @@ import { GameEffects, useGameEffects } from './components/GameEffects';
 import { useGameState } from './hooks/useGameState';
 import { QuestionGenerator } from './lib/questionGenerator';
 import { db } from './lib/database';
+import wordsData from './data/words.json';
 
 type GameScreen = 'home' | 'playing' | 'result';
 
@@ -19,10 +20,18 @@ function App() {
     const initializeGame = async () => {
       try {
         await db.init();
+        // 检查数据库是否为空
+        const dbWords = await db.getAllWords();
+        if (dbWords.length === 0) {
+          // 如果为空，从JSON初始化数据
+          await db.initializeWords(wordsData);
+        }
         const words = await db.getAllWords();
         setQuestionGenerator(new QuestionGenerator(words));
       } catch (error) {
-        console.error('Failed to initialize game:', error);
+        console.error('Failed to initialize database, using fallback data:', error);
+        // 使用备用数据
+        setQuestionGenerator(new QuestionGenerator(wordsData));
       }
     };
 
@@ -106,48 +115,95 @@ function App() {
 
   if (!questionGenerator) {
     return (
-      <div className="game-container">
+      <div className="game-container flex flex-col items-center justify-center min-h-screen">
+        <div className="animate-pulse mb-4">
+          <div className="w-16 h-16 bg-primary/30 rounded-full"></div>
+        </div>
         <div className="text-center text-primary text-xl font-pixel">
-          LOADING...
+          正在加载单词数据...
+        </div>
+        <div className="mt-4 text-sm text-muted-foreground">
+          首次加载可能需要一些时间
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      <GameEffects effects={effects} />
+    <ErrorBoundary>
+      <div className="min-h-screen bg-background">
+        <GameEffects effects={effects} />
 
-      {screen === 'home' && (
-        <HomePage onStartGame={startGame} />
-      )}
+        {screen === 'home' && (
+          <HomePage onStartGame={startGame} />
+        )}
 
-      {screen === 'playing' && gameState.currentQuestion && (
-        <GameQuestion
-          question={gameState.currentQuestion}
-          questionGenerator={questionGenerator}
-          onAnswer={handleAnswer}
-          onUseHint={gameState.useHint}
-          canUseHint={gameState.canUseHint}
-          currentHint={gameState.currentHint}
-          lives={gameState.gameState.lives}
-          score={gameState.gameState.score}
-          combo={gameState.gameState.combo}
-          questionNumber={gameState.gameState.currentQuestion}
-          totalQuestions={gameState.gameState.totalQuestions}
-        />
-      )}
+        {screen === 'playing' && gameState.currentQuestion && (
+          <GameQuestion
+            question={gameState.currentQuestion}
+            questionGenerator={questionGenerator}
+            onAnswer={handleAnswer}
+            onUseHint={gameState.useHint}
+            canUseHint={gameState.canUseHint}
+            currentHint={gameState.currentHint}
+            lives={gameState.gameState.lives}
+            score={gameState.gameState.score}
+            combo={gameState.gameState.combo}
+            questionNumber={gameState.gameState.currentQuestion}
+            totalQuestions={gameState.gameState.totalQuestions}
+          />
+        )}
 
-      {screen === 'result' && (
-        <GameResultDialog
-          isOpen={screen === 'result'}
-          result={gameState.getGameResult()}
-          onPlayAgain={handlePlayAgain}
-          onBackToHome={handleBackToHome}
-        />
-      )}
-    </div>
+        {screen === 'result' && (
+          <GameResultDialog
+            isOpen={screen === 'result'}
+            result={gameState.getGameResult()}
+            onPlayAgain={handlePlayAgain}
+            onBackToHome={handleBackToHome}
+          />
+        )}
+      </div>
+    </ErrorBoundary>
   );
+}
+
+interface ErrorBoundaryState {
+  hasError: boolean;
+}
+
+interface ErrorBoundaryProps {
+  children: React.ReactNode;
+}
+
+class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundaryState> {
+  constructor(props: ErrorBoundaryProps) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(_error: Error) {
+    // 更新 state 使下一次渲染能够显示降级 UI
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="game-container text-center p-8">
+          <h1 className="text-destructive text-2xl mb-4">出现错误</h1>
+          <p className="text-muted-foreground mb-6">应用加载时遇到问题，请刷新页面重试</p>
+          <button 
+            onClick={() => window.location.reload()}
+            className="bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-2 rounded"
+          >
+            刷新页面
+          </button>
+        </div>
+      );
+    }
+
+    return this.props.children;
+  }
 }
 
 export default App;
